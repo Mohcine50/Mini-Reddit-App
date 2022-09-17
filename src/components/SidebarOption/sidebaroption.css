@@ -1,0 +1,20 @@
+.SidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 10px;
+  color: #1a1a1b;
+  border-bottom: thin solid #ccc;
+  cursor: pointer;
+}
+.SidebarOption img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 3px solid #0079d3;
+}
+.SidebarOption span {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "IBM Plex Sans", sans-serif;
+}

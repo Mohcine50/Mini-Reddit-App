@@ -1,0 +1,13 @@
+.sidebar {
+  flex: 0.3;
+  background-color: #fff;
+
+  margin-left: 20px;
+  border-radius: 3px;
+  height: fit-content;
+  border: 1px solid #ccc;
+}
+
+.sidebar:hover {
+  border: 1px solid #a4a4a5;
+}

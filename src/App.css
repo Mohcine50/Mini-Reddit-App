@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+.app {
+  background-color: #dae0e6;
+  font-family: "IBM Plex Sans", sans-serif;
+  min-height: 600px;
+}
+
+.body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+

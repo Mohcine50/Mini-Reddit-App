@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: #fff;
+  padding: 10px;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.header .logo {
+  
+  flex: 0.5;
+}
+.header .logo .link{
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  display: flex;
+}
+.header .logo img {
+  width: 50px;
+}
+.header .logo p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.header .logo p span {
+  color: #ff3f18;
+}
+.search {
+  background-color: #f6f7f8;
+  padding: 10px 15px;
+  border-radius: 3px;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  font-family: "IBM Plex Sans", sans-serif;
+  border: 1px solid #ccc;
+}
+.search:hover {
+  background-color: #fff;
+}
+
+.search input {
+  background: transparent;
+  width: 100%;
+  border: none;
+}
+.search button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}

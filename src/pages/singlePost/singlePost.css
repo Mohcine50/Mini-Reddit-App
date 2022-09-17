@@ -1,0 +1,8 @@
+.singlePost {
+  display: flex;
+  gap: 20px;
+}
+
+.post-holder {
+  flex: 0.8;
+}

@@ -1,0 +1,133 @@
+.post {
+  display: flex;
+  flex: 0.8;
+  background-color: #fff;
+  border-radius: 3px;
+  /*  -webkit-box-shadow: 1px 3px 12px 4px rgba(0, 0, 0, 0.12);
+  box-shadow: 1px 3px 12px 4px rgba(0, 0, 0, 0.12); */
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.post:hover {
+  border: 1px solid #a4a4a5;
+}
+
+.post .upvots {
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
+  align-items: center;
+  padding-top: 40px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1b;
+  background-color: #f7f9fa;
+}
+
+.post .upvots button {
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: #717171;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+.post .upvots spane {
+  margin: 8px 0;
+}
+
+.post .upvots #up:hover {
+  background-color: #fbfbfb;
+  color: #45b81f;
+}
+.post .upvots #down:hover {
+  background-color: #fbfbfb;
+  color: #ff304f;
+}
+
+.post .details {
+  width: 100%;
+  flex: 0.9;
+}
+.post-details h3 {
+  color: #1a1a1b;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.post-details p {
+  overflow: hidden;
+  max-width: 1000ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #1a1a1b;
+}
+
+.post-details span {
+  color: #1c1c1c;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.post .post-img {
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 20px;
+  max-width: 600px;
+}
+
+.post .post-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.post-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  color: #878a8c;
+}
+
+.post-infos h5 {
+  color: #3d5af1;
+}
+.post-infos p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #717171;
+}
+.post-info-comments {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.post-infos span {
+  font-size: 15px;
+  font-weight: 300;
+  color: #717171;
+}
+
+.post-infos button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 3px;
+}
+.post-infos button:hover {
+  background-color: #fbfbfb;
+}

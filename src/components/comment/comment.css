@@ -1,0 +1,61 @@
+.comment{
+    background-color: #fff;
+    font-family: "IBM Plex Sans", sans-serif;
+    padding: 10px;
+}
+
+.comment .userInfo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.comment .userInfo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #3d5af1;
+}
+
+.comment .userInfo .username{
+    color: #1a1a1b;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+
+}
+
+.comment .userInfo .time{
+    color: #7c7c7c;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+vertical-align: baseline
+}
+
+.comment p{
+    color: #1a1a1b;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.comment .upvots {
+    margin: 10px 0;
+    margin-left: 50px;
+}
+.comment .upvots button{
+    background-color: transparent;
+    border: none;
+    color: #7c7c7c;
+}
+
+.comment .upvots span{
+    color: #1A1A1B;
+    margin: 4px;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 700;
+}

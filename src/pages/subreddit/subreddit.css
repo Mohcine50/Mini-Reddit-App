@@ -1,0 +1,8 @@
+.subreddit{
+    display: flex;
+  gap: 20px;
+}
+
+.posts {
+    flex: 0.8;
+  }
